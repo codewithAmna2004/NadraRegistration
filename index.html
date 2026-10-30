@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nadra Registration</title>
+ </head>
+ <body>
+    <h1> Nadra Registration </h1>
+<script>
+    //Taking input from user
+let username=prompt("Enter Your Name");
+let province=prompt("Enter Province Name");
+let age=prompt("Enter Your Age");
+
+   //type casting
+age=Number(age);
+
+   //using if Condition
+if(province=="punjab")
+{
+alert("You are not eligible");
+}
+if(age>=60)
+{
+    alert("Refuse");
+}
+if(province=="balochistan")
+{
+    alert("Pass");
+}
+else
+{
+alert("wrong input");
+}
+//note (Agr else if m ikhain ge condition to age usy ak true mil gai wo dosri ni chlae ga 
+//lekin agr hm chahty h hmari sb conditions chly to fr hmain  usy if m likhna ho ga na k 
+//if else m )
+</script>
+ </body>
+ </html>
